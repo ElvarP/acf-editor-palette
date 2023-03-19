@@ -308,7 +308,6 @@ class Field extends \acf_field
     {
         $fullpath = __DIR__;
         if (strpos($fullpath, 'themes') !== false) {
-            echo get_template_directory() . '/inc/acf-editor-palette/public/css/field.css';
             wp_enqueue_style($this->name, get_template_directory_uri() . '/inc/acf-editor-palette/public/css/field.css', ['wp-components'], null);
             wp_enqueue_script($this->name, get_template_directory_uri() . '/inc/acf-editor-palette/public/js/field.js', [], null, true);
         }
