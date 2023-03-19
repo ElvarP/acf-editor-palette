@@ -11,7 +11,8 @@
     @apply max-w-xs mt-2;
 
     .color-palette-wrapper {
-      @apply bg-white pt-3 pb-4 px-4 border mt-1 rounded-sm shadow-sm;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      @apply bg-white pt-3 pb-4 px-4  mt-1 rounded-sm shadow-sm;
 
       .color-palette-wrapper-title {
         @apply font-medium uppercase mb-2 py-1;
